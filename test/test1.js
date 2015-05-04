@@ -19,5 +19,18 @@ request(url)
         done();
         });
 });
+    it('should pass second test', function(){
+
+        request(url)
+            .get('/test')
+            .end(function(err, res) {
+                if (err) {
+                    throw err;
+                }
+                res.should.have.status(200);
+                res.should.have.property('success',true)
+                done();
+            });
+    });
 
  });
