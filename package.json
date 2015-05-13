@@ -4,7 +4,7 @@
   "description": "express test",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test",
+    "test": "node index.js;mocha test",
     "start" :"node index.js"
   },
   "repository": {
