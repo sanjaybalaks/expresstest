@@ -6,7 +6,7 @@ var request  = require('supertest');
 var url ='http://localhost:3000';
 describe('Express Test', function() {
 
-it('should pass first test', function(){
+it('should pass first test', function(done){
 
 request(url)
    .get('/')
@@ -19,7 +19,7 @@ request(url)
         done();
         });
 });
-    it('should pass second test', function(){
+    it('should pass second test', function(done){
 
         request(url)
             .get('/test')
