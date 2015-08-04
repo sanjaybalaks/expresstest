@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var port = process.env.PORT || 3000;
-
+console.log("New change made");
 app.get('/', function (req, res) {
 	res.status(200).json({status:'suceess',message:'hello world'});
 	console.log({success:'true'});
