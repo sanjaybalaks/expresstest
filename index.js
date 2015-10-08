@@ -4,7 +4,7 @@ var port = process.env.PORT || 3000;
 console.log("New change made");
 console.log("this is to test close issue by commit");
 
-app.get('/', function (req, res) {
+app.get('/sb', function (req, res) {
 	res.status(200).json({status:'suceess',message:'hello world'});
 	console.log({success:'true'});
 });
