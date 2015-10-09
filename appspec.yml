@@ -16,8 +16,8 @@ hooks:
     - location: scripts/stop.sh
       timeout: 300
       runas: root
-  BeforeInstall:
-	- location: scripts/remove.sh
+   BeforeInstall:
+    - location: scripts/remove.sh
       timeout: 300
       runas: root
    ApplicationStart:
