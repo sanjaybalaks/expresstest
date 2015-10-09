@@ -1,2 +1,2 @@
 #!/bin/sh
-pm2 start /home/ubuntu/expresstest/index.js
+sudo pm2 start /home/ubuntu/expresstest/index.js
