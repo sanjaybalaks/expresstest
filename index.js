@@ -5,7 +5,7 @@ console.log("New change made");
 console.log("this is to test close issue by commit");
 
 app.get('/sb', function (req, res) {
-	res.status(200).json({status:'suceess',message:'code deploy test 345sS9'});
+	res.status(200).json({status:'suceess',message:'code deploy test please '});
 	console.log({success:'true'});
 });
 app.get('/test', function (req, res) {
