@@ -1,2 +1,2 @@
 #!/bin/sh
-sudo rm -r  expresstest/*
+sudo rm -r  /home/ubuntu/expresstest/*
