@@ -1,2 +1,2 @@
 #!/bin/sh
-pm2 stop all
+forever stopall
