@@ -5,11 +5,11 @@ console.log("New change made");
 console.log("this is to test close issue by commit");
 
 app.get('/sb', function (req, res) {
-	res.status(200).json({status:'suceess',message:'code deploy test 3459'});
+	res.status(200).json({status:'suceess',message:'code deploy test 345sS9'});
 	console.log({success:'true'});
 });
 app.get('/test', function (req, res) {
-  res.status(200).json({status:'suceess',message:'hello world test'});
+  res.status(200).json({status:'suceess',message:'hello world testsanmjay '});
   console.log({success:'true'});
 });
 
