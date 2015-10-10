@@ -4,8 +4,12 @@ var port = process.env.PORT || 3000;
 console.log("New change made");
 console.log("this is to test close issue by commit");
 
+app.get('/ss', function (req, res) {
+	res.status(200).json({status:'suceess',message:'welcome to express ss  '});
+	console.log({success:'true'});
+});
 app.get('/sb', function (req, res) {
-	res.status(200).json({status:'suceess',message:'code deploy test please '});
+	res.status(200).json({status:'suceess',message:'just testing'});
 	console.log({success:'true'});
 });
 app.get('/test', function (req, res) {
