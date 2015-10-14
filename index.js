@@ -11,11 +11,11 @@ app.get('/ss', function (req, res) {
 	console.log({success:'true'});
 });
 app.get('/sb', function (req, res) {
-	res.status(200).json({status:'suceess',message:'just testing'});
+	res.status(200).json({status:'suceess',message:'just testing me now sanjay'});
 	console.log({success:'true'});
 });
 app.get('/test', function (req, res) {
-  res.status(200).json({status:'suceess',message:'hello world testsanmjay '});
+  res.status(200).json({status:'suceess',message:'hello world test sanjay '});
   console.log({success:'true'});
 });
 
